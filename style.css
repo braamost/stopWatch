@@ -25,6 +25,7 @@ body{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+    padding: 20px;
 }
 
 #btns{
@@ -72,7 +73,7 @@ h1{
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
 
     h1{
         font-size: 50px;
@@ -85,30 +86,20 @@ h1{
     }
 }
 
-@media (max-width: 750px) {
-    h1{
-        font-size: 50px;
-    }
-    button{
-        font-size: 25px;
-    }
-    #clk{
-        font-size: 1.2em;
-    }
-}
 
-@media (max-width: 510px) {
+@media (max-width: 570px) {
     h1{
         font-size: 50px;
     }
     #clk{
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
 }
 
 @media (max-width: 460px) {
     #container{
         width: fit-content;
+        padding: 0%;
     }
     h1{
         font-size: 40px;
